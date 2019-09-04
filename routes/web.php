@@ -1,5 +1,5 @@
 <?php
-
+include('admin.php');
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,8 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get('dashboard', 'dashboardController@index');
 
 // Pages Controller part
 
